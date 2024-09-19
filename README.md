@@ -34,12 +34,11 @@ The model used for image classification is a convolutional neural network (CNN).
 3. Pooling Layers: Reducing the spatial dimensions of the extracted features.
 4. Fully Connected Layers: Combining the features to predict the vehicle class.
 
-Model Training
-
+## Model Training
 The model was trained using a categorical cross-entropy loss function and an optimizer such as Adam or SGD. Early stopping and learning rate adjustments were applied to prevent overfitting and optimize training speed.
-Evaluation and Results
 
-The trained model was evaluated using accuracy, precision, recall, and F1-score metrics. The results showed [add your performance metrics here] accuracy on the test set. A confusion matrix was used to visualize the classification performance across different vehicle categories.
-Conclusion
+## Evaluation and Results
+The trained model was evaluated using accuracy. The results showed 92% accuracy on the test set. 
 
+## Conclusion
 This project demonstrates the effectiveness of CNNs for vehicle image classification. Further improvements could be achieved by using transfer learning from pre-trained models such as ResNet or VGG, or by experimenting with different hyperparameters and architectures.
